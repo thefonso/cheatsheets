@@ -1,6 +1,12 @@
 Vim Notes:
 exit command-T => ctrl+c
 
+select and move text block:
+ctrl+v, select block, shift+i,space bar,esc
+
+intellisense:
+ctrl+x, ctrl+o
+
 iterm:transperency on/off
 command+u
 
@@ -9,12 +15,19 @@ ctrl+w, o
 
 see new files:
 :CommandTFlush
+Shift+r (nerdtree)
 
 search and replace:
 :%s/foobar/barbar/g
 
 search in project:
 :!Ack <name of thing>
+
+search word in file:
+:? foo
+:/foo
+cursor on item and press "*"
+n key - next match
 
 turn off highlight:
 :nohlsearch
@@ -32,8 +45,8 @@ paste - p
 modes change - ctrl+[
 
 split:
-Leader w+v
-Leader w+s
+:vs
+:sp
 
 recording:
 (visual mode)
@@ -68,3 +81,5 @@ gg=G
 
 switch mode save switch mode back:
 ctrl+o, :w
+
+:JSHint {file}
