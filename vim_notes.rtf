@@ -1,10 +1,20 @@
 Vim Notes:
+
+command T:
 exit command-T => ctrl+c
+
+surround text with ":
+multiline--- vS+"
+singleline--visS+"
+
+tcomment text:
+v..select text...gc
+v..go to line.....gcc
 
 select and move text block:
 ctrl+v, select block, shift+i,space bar,esc
 
-intellisense:
+intellisense: (insert mode)
 ctrl+x, ctrl+o
 
 iterm:transperency on/off
@@ -24,7 +34,7 @@ search in project:
 :!Ack <name of thing>
 
 search word in file:
-:? foo
+:?foo
 :/foo
 cursor on item and press "*"
 n key - next match
@@ -78,6 +88,9 @@ adjust indents:
 select a block hit =
 or
 gg=G
+
+extras:
+buffer = <F8>
 
 switch mode save switch mode back:
 ctrl+o, :w
